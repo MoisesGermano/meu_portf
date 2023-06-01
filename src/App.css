@@ -1,0 +1,27 @@
+.App{
+  margin: none;
+}
+
+.mn{
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+.mn a{
+  border-radius: 10px;
+  text-decoration: none;
+  color: darkmagenta;
+  float: right;
+  display: block;
+  padding: 14px 16px;
+  transition: .5s ease-in-out
+}
+
+.mn a:hover{
+  margin: 5px;
+  background-color: rgb(35, 40, 43);
+  color: darkmagenta;
+  border-bottom: 2px solid darkmagenta;
+}

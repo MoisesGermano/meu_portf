@@ -1,0 +1,164 @@
+.header-container{
+    transition: 1s ease-in-out;
+    height: 100vh;
+    background-color: black;
+    background-image: url('./img/my_fotinha.jpeg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 520px 500px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 0 112px;
+    
+}
+
+.pisc{
+    white-space: nowrap;
+}
+
+.anima{
+    overflow: hidden;
+    animation: typing 4s steps(110) 15s infinite normal;
+}
+
+@keyframes typing{
+    from{
+        color: black;
+        width:0;
+    }
+    to{
+        color: darkmagenta;
+        width: 18em;
+    }
+}
+
+
+
+h1{
+    transition: 1s ease-in-out;
+    color: darkmagenta;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h2{
+    transition: 1s ease-in-out;
+    color: darkmagenta;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.social-media{
+    margin-top: 1px;
+    display: flex;
+}
+
+.social-media a{
+    border-radius: 30px;
+    text-decoration: none;
+    color: darkmagenta;
+    padding: 1rem 3rem ;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease-in-out;
+}
+.wh:hover{
+    margin: 5px;
+    color: black;
+    background-color: green;
+}
+.lk:hover{
+    margin: 5px;
+    color: black;
+    background-color: #0e76a8;
+}
+.cv:hover{
+    margin: 5px;
+    color: black;
+    background-color: grey;
+}
+.gh:hover{
+    margin: 5px;
+    color: black;
+    background-color: white;
+}
+
+
+/*Menu*/
+.checkbox-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media only screen and (min-width: 400px) and (max-width: 600px){
+    .header-container{
+        transition: 1s ease-in-out;
+        background-size: 220px 200px; 
+        padding: 0 11px;  
+    }
+
+    h1{
+        transition: 1s ease-in-out;
+        color: darkmagenta;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+    
+    h2{
+        transition: 1s ease-in-out;
+        color: darkmagenta;
+        text-transform: uppercase;
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+
+    .social-media a{
+        padding: 10px 20px ;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px){
+    .header-container{
+        transition: 1s ease-in-out;
+        background-size: 350px 300px; 
+        padding: 0 11px;  
+    }
+
+    .social-media a{
+        padding: 10px 40px ;
+    }
+
+}
+
+@media only screen and (min-width: 100px) and (max-width: 399px){
+    .header-container{
+        transition: 1s ease-in-out;
+        background-image: none; 
+        padding: 0 1px;  
+    }
+
+    .social-media a{
+        padding: 10px 10px ;
+    }
+    h1{
+        transition: 1s ease-in-out;
+        font-size: 30px;
+    }
+    
+    h2{
+        transition: 1s ease-in-out;
+        font-size: 20px;
+    }
+
+}

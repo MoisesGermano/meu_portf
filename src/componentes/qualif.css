@@ -1,0 +1,131 @@
+.corpo{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    transition: 1.5s ease-in-out;
+}
+
+
+.tab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    background-color: grey;
+    height: 500px;
+    width: 1000px;
+    border: 10px solid white;
+    transition: 2s ease-in-out
+}
+
+
+.tab:hover{
+    background-color: black;
+}
+
+.qlf{
+    align-items: center;
+    display: block;
+}
+
+.barra{
+    text-align: center;
+    background-color: grey;
+    border: 2px solid white;
+    border-radius: 50px;
+    height: 30px;
+    width: 500px;
+    transition: 0.5s ease-in-out;
+}
+.img{
+    border-radius: 20px;
+    margin: 5px;
+    border: 2px solid white;
+    display: flex;
+    height: 200px;
+    width: 250px;
+}
+
+
+#html{
+    border-radius: 50px;
+    height: 30px;
+    width: 70%;
+    background-color: antiquewhite;
+  }
+  #CSS{
+    border-radius: 50px;
+    height: 30px;
+    width: 50%;
+    background-color: antiquewhite;
+  }
+  #Java{
+    border-radius: 50px;
+    height: 30px;
+    width: 80%;
+    background-color: antiquewhite;
+    transition: .5s ease-in-out;
+  }
+  
+
+
+  #Py{
+    border-radius: 50px;
+    height: 30px;
+    width: 30%;
+    background-color: antiquewhite;
+    transition: .5s ease-in-out;
+  }
+  #Javasp{
+    border-radius: 50px;
+    height: 30px;
+    width: 40%;
+    background-color: antiquewhite;
+    transition: .5s ease-in-out;
+  }
+
+  #Pp{
+    border-radius: 50px;
+    height: 30px;
+    width: 60%;
+    background-color: antiquewhite;
+    transition: .5s ease-in-out;
+  }
+
+  @media only screen and (min-width: 400px) and (max-width: 600px){
+  
+    .tab{
+      height: 500px;
+      width: 400px;
+    }
+    .img{
+      display: none;
+    }
+
+    .barra{
+      height: 30px;
+      width: 300px;
+      transition: 0.5s ease-in-out;
+  }
+  }
+
+  @media only screen and (min-width: 100px) and (max-width: 399px){
+    .tab{
+      height: 500px;
+      width: 400px;
+    }
+    .img{
+      display: none;
+    }
+
+    .barra{
+      height: 30px;
+      width: 300px;
+      transition: 0.5s ease-in-out;
+  }
+  }

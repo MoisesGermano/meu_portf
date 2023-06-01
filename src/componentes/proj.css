@@ -1,0 +1,118 @@
+.crpproj{
+    display: block;
+    background-color: #2E2E2E;
+    margin: 0;
+    padding: 0;
+    transition: 1.5s ease-in-out;
+    border: 1px solid white;
+    height: 100vh;
+}
+
+.pag01{
+    display: flex;
+    text-align: left;
+    border: 1px solid white;
+    
+}
+
+.pag02{
+    
+    display: flex;
+    text-align: left;
+    
+}
+
+.imgpj{
+    border-radius: 10%;
+    
+    border: 2px solid black;
+    height: 300px;
+    width: 450px;
+    transition: 1.5s ease-in-out;
+}
+
+
+.txt1{
+    font-size: 20px;
+    display: block;
+    color: darkgray;
+    background-color: #2E2E2E;
+    height: auto;
+    margin-left:50px;
+    transition: 1.5s ease-in-out;
+}
+
+
+
+@media only screen and (min-width: 400px) and (max-width: 600px){
+    .imgpj{
+        height: 160px;
+        width: 300px;
+        transition: 1.5s ease-in-out;
+    }
+    .txt1{
+        font-size: 15px;
+        height: auto;
+        margin-left:10px;
+        transition: 1.5s ease-in-out;
+    }
+    .pag01{
+        transition: 1.5s ease-in-out;
+        text-align: center;
+        display: block;
+    }
+    .pag02{
+        transition: 1.5s ease-in-out;
+        display: block;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px){
+    .imgpj{
+        height: 200px;
+        width: 350px;
+        transition: 1.5s ease-in-out;
+    }
+    .txt1{
+        font-size: 20px;
+        height: auto;
+        margin-left:10px;
+        transition: 1.5s ease-in-out;
+    }
+    .pag01{
+        transition: 1.5s ease-in-out;
+        text-align: center;
+        display: block;
+    }
+    .pag02{
+        transition: 1.5s ease-in-out;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 399px){
+    .imgpj{
+        height: 200px;
+        width: 350px;
+        transition: 1.5s ease-in-out;
+    }
+    .txt1{
+        font-size: 20px;
+        height: auto;
+        margin-left:10px;
+        transition: 1.5s ease-in-out;
+    }
+    .pag01{
+        transition: 1.5s ease-in-out;
+        text-align: center;
+        display: block;
+    }
+    .pag02{
+        transition: 1.5s ease-in-out;
+        display: block;
+        text-align: center;
+    }
+
+}
+
